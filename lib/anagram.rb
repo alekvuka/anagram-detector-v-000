@@ -17,7 +17,7 @@ class Anagram
     possible_matches.each do |w|
       target_characters = @word.split("")
       w = w.split("")
-      binding.pry
     end
+    
   end
 end
