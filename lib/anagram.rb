@@ -18,6 +18,8 @@ class Anagram
       target_characters = @word.split("")
       w = w.split("")
     end
+    binding.pry
+
     
   end
 end
